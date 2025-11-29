@@ -6,13 +6,15 @@ This project provides a document processing workflow with a retrieval-augmented 
   <img src="RAG.png" alt="RAG Document Processing - 99% Accuracy in AI Response" width="800">
 </p>
 
-## Demo
+<p align="center">
+  <video src="https://github.com/mouncefik/Advanced-Rag/raw/main/upwork.webm" width="800" controls>
+    Your browser does not support the video tag.
+  </video>
+</p>
 
 https://github.com/user-attachments/assets/upwork.webm
 
 https://github.com/mouncefik/Advanced-Rag/raw/main/upwork.webm
-
-<video src="upwork.webm" controls width="800"></video>
 
 - Backend: FastAPI app under `Ragdee/` with a RAG service powered by OpenAI.
 - Frontend: Vite + React app under `frontend/` with a three-section UI.
