@@ -12,8 +12,6 @@ This project provides a document processing workflow with a retrieval-augmented 
   </video>
 </p>
 
-https://github.com/user-attachments/assets/upwork.webm
-
 https://github.com/mouncefik/Advanced-Rag/raw/main/upwork.webm
 
 - Backend: FastAPI app under `Ragdee/` with a RAG service powered by OpenAI.
