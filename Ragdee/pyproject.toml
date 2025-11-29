@@ -1,0 +1,31 @@
+[project]
+name = "dolphin"
+version = "0.1.0"
+authors = [
+    { name = "mouncef", email = "mouncefik@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy (>=2.0.0,<3.0.0)",
+    "omegaconf (==2.3.0)",
+    "opencv-python (>=4.10.0,<5.0.0)",
+    # Removed headless to avoid dual OpenCV installs
+    "pillow (>=8.0.0,<12.0.0)",
+    "timm (>=1.0.20,<2.0.0)",
+    "transformers (>=4.57.1,<5.0.0)",
+    "accelerate (>=1.11.0,<2.0.0)",
+    "pymupdf (>=1.26.5,<2.0.0)",
+    "gradio (>=5.49.1,<6.0.0)",
+    "fastapi (>=0.115.5,<1.0.0)",
+    "uvicorn (>=0.32.0,<1.0.0)",
+    "openai (>=1.0.0,<2.0.0)",
+    "python-dotenv (>=1.0.0,<2.0.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
